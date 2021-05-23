@@ -1,0 +1,31 @@
+
+const Navbar = () => {
+
+    return (
+        <header className="transition-all duration-100 w-full bg-white sticky top-0 z-10">
+            <div className="mx-auto px-4 py-4 max-w-5xl w-full md:h-20 flex items-center overflow-x-hidden">
+                <nav className="flex-auto text-gray-600 overflow-x-hidden">
+                    <div className="mb-4 flex md:hidden items-center justify-between">
+                        <a href="/"><svg width="82" height="40" viewBox="0 0 148 90" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" style={{ "transform": "translateX(4%)", " shape-rendering": "auto" }} ><path d="M34.992 23.495h27.855v2.219H37.546v16.699h23.792v2.219H37.546v18.334h25.591v2.219H34.992v-41.69zm30.35 0h2.96l13.115 18.334 13.405-18.334L113.055.207 83.1 43.756l15.436 21.429H95.46L81.417 45.683 67.316 65.185h-3.018L79.85 43.756 65.343 23.495zm34.297 2.219v-2.219h31.742v2.219h-14.623v39.47h-2.554v-39.47H99.64zM.145 23.495h3.192l44.011 66.003L29.16 65.185 2.814 26.648l-.116 38.537H.145v-41.69zm130.98 38.801c-.523 0-.914-.405-.914-.928 0-.524.391-.929.913-.929.528 0 .913.405.913.929 0 .523-.385.928-.913.928zm2.508-2.443H135c.019.742.56 1.24 1.354 1.24.888 0 1.391-.535 1.391-1.539v-6.356h1.391v6.362c0 1.808-1.043 2.849-2.77 2.849-1.62 0-2.732-1.01-2.732-2.556zm7.322-.08h1.379c.118.853.95 1.395 2.149 1.395 1.117 0 1.937-.58 1.937-1.377 0-.685-.521-1.097-1.708-1.377l-1.155-.28c-1.62-.38-2.36-1.166-2.36-2.487 0-1.602 1.304-2.668 3.26-2.668 1.82 0 3.15 1.066 3.23 2.58h-1.354c-.13-.828-.85-1.346-1.894-1.346-1.1 0-1.832.53-1.832 1.34 0 .642.472 1.01 1.64 1.284l.987.243c1.838.43 2.596 1.178 2.596 2.53 0 1.72-1.33 2.799-3.453 2.799-1.987 0-3.323-1.029-3.422-2.637z" fill="#000" fill-rule="nonzero"></path></svg></a>
+                        <a className="mr-2 px-4 py-1 font-medium leading-6.5 rounded-7 bg-blue-500 hover:bg-white text-white hover:text-blue-500 border border-blue-500 transition-colors duration-150 ease-in" href="https://vercel.com/contact/sales?utm_source=next-site&utm_medium=navbar&utm_campaign=next-website">Learn</a>
+                    </div>
+                    <div className="flex items-center text-sm md:text-base justify-between overflow-x-auto whitespace-nowrap">
+                        <a className="hidden md:block" href="/"><svg width="82" height="40" viewBox="0 0 148 90" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" style={{ "transform": "translateX(4%)", " shape-rendering": "auto" }} ><path d="M34.992 23.495h27.855v2.219H37.546v16.699h23.792v2.219H37.546v18.334h25.591v2.219H34.992v-41.69zm30.35 0h2.96l13.115 18.334 13.405-18.334L113.055.207 83.1 43.756l15.436 21.429H95.46L81.417 45.683 67.316 65.185h-3.018L79.85 43.756 65.343 23.495zm34.297 2.219v-2.219h31.742v2.219h-14.623v39.47h-2.554v-39.47H99.64zM.145 23.495h3.192l44.011 66.003L29.16 65.185 2.814 26.648l-.116 38.537H.145v-41.69zm130.98 38.801c-.523 0-.914-.405-.914-.928 0-.524.391-.929.913-.929.528 0 .913.405.913.929 0 .523-.385.928-.913.928zm2.508-2.443H135c.019.742.56 1.24 1.354 1.24.888 0 1.391-.535 1.391-1.539v-6.356h1.391v6.362c0 1.808-1.043 2.849-2.77 2.849-1.62 0-2.732-1.01-2.732-2.556zm7.322-.08h1.379c.118.853.95 1.395 2.149 1.395 1.117 0 1.937-.58 1.937-1.377 0-.685-.521-1.097-1.708-1.377l-1.155-.28c-1.62-.38-2.36-1.166-2.36-2.487 0-1.602 1.304-2.668 3.26-2.668 1.82 0 3.15 1.066 3.23 2.58h-1.354c-.13-.828-.85-1.346-1.894-1.346-1.1 0-1.832.53-1.832 1.34 0 .642.472 1.01 1.64 1.284l.987.243c1.838.43 2.596 1.178 2.596 2.53 0 1.72-1.33 2.799-3.453 2.799-1.987 0-3.323-1.029-3.422-2.637z" fill="#000" fill-rule="nonzero"></path></svg></a>
+                        <a className="md:ml-4 hover:text-black transition-colors duration-200 ease-in" href="/showcase">Showcase</a>
+                        <a className="ml-4 hover:text-black transition-colors duration-200 ease-in" href="/docs/getting-started">Docs</a>
+                        <a className="ml-4 hover:text-black transition-colors duration-200 ease-in" href="/blog">Blog</a>
+                        <a className="ml-4 hover:text-black transition-colors duration-200 ease-in" href="/analytics">Analytics</a>
+                        <a className="ml-4 hover:text-black transition-colors duration-200 ease-in" href="/commerce">Commerce</a>
+                        <a className="ml-4 hover:text-black transition-colors duration-200 ease-in" href="https://vercel.com/contact/sales?utm_source=next-site&utm_medium=navbar&utm_campaign=next-website">Enterprise</a>
+                        <div className="w-4"></div>
+                        <a className="hidden md:block px-4 py-1 font-medium leading-6.5 rounded-7 bg-blue-500 hover:bg-white text-white hover:text-blue-500 border border-blue-500 transition-colors duration-150 ease-in" href="https://vercel.com/contact/sales?utm_source=next-site&utm_medium=navbar&utm_campaign=next-website">Learn</a>
+                        <a className="flex-none ml-4 lg:ml-0 w-5.5 h-5.5 hover:text-black transition-colors duration-200 ease-in" href="https://github.com/vercel/next.js" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M8.18391.249268C3.82241.249268.253906 3.81777.253906 8.17927c0 3.46933 2.279874 6.44313 5.451874 7.53353.3965.0991.49563-.1983.49563-.3965v-1.3878c-2.18075.4956-2.67638-.9912-2.67638-.9912-.3965-.8922-.89212-1.1895-.89212-1.1895-.69388-.4957.09912-.4957.09912-.4957.793.0992 1.1895.793 1.1895.793.69388 1.2887 1.88338.8922 2.27988.6939.09912-.4956.29737-.8921.49562-1.0904-1.78425-.1982-3.5685-.8921-3.5685-3.96496 0-.89212.29738-1.586.793-2.08162-.09912-.19825-.3965-.99125.09913-2.08163 0 0 .69387-.19825 2.18075.793.59475-.19825 1.28862-.29737 1.9825-.29737.69387 0 1.38775.09912 1.98249.29737 1.4869-.99125 2.1808-.793 2.1808-.793.3965 1.09038.1982 1.88338.0991 2.08163.4956.59475.793 1.28862.793 2.08162 0 3.07286-1.8834 3.66766-3.66764 3.86586.29737.3965.59474.8921.59474 1.586v2.1808c0 .1982.0991.4956.5948.3965 3.172-1.0904 5.4518-4.0642 5.4518-7.53353-.0991-4.3615-3.6676-7.930002-8.02909-7.930002z" clip-rule="evenodd"></path></svg></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    )
+}
+
+export default Navbar;
+
